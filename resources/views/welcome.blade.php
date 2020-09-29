@@ -73,7 +73,7 @@
 
 <!--- Jumbotron -->
 
-<div class="container">
+<div class="container mt-5">
     <div class="row jumbotron">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
             <h3>Are you a professional counsellor?</h3>
@@ -122,7 +122,7 @@
     <div class="row padding">
         <div class="col-lg-6">
             <h6>WELCOME TO</h6>
-            <h2>CASSON</h2>
+            <h2 class="font-weight-bold">CASSON</h2>
             <p>The Counselling Association of Nigeria is a National Professional body of trained, registered and Licensed Counsellors. It draws membership from all Educational Institutions, Prisons, the Health Sector, Schools, NGOs, Rehabilitating Centres, the media, Government Agencies, Individuals, Religious groups etc.</p>
             <p>The Association was founded on 15th November, 1975 with 49 Founding members, headed by Professor S. Olu Makinde (Late). The Association is made up of Icons, Fellows, Associate members, Honorary members, Full-Time members, and Student membership who possess the necessary requirements as stipulated in the Association's Constitution. read more ..</p>
             <br>
@@ -138,9 +138,18 @@
 
 </div>
 
+<!--- publication -->
+<div class="container padding pt-4">
+    <div class="row padding">
+        <div class="col-lg-6" style="alignment: revert">
+            <h5>PUBLICATIONS</h5>
 
+            <hr class="col-1">
 
-{{----}}
+            <p>Get on with our articles</p>
+        </div>
+    </div>
+</div>
 
 
 <!--- Fixed background -->
@@ -153,6 +162,10 @@
 
 
 <!--- Cards -->
+
+<div class="container padding">
+
+</div>
 
 
 <!--- Two Column Section -->
