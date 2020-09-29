@@ -84,7 +84,7 @@
             </p>
         </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 p-2">
             <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Register Now!!!</button></a>
         </div>
 
@@ -172,7 +172,7 @@
                 <div class="card-body">
                     <h4 class="card-title"><a href="#">The Counsellor Vol 14 (August 1996) - Some Te ..</a></h4>
                     <p class="card-text">At The importance of good family life cannot be over-emphasized ..</p>
-                    <a href="" class="btn btn-outline-secondary">Download</a>
+                    <a href="#" class="btn btn-outline-secondary">Download</a>
                 </div>
             </div>
         </div>
@@ -183,7 +183,7 @@
                 <div class="card-body">
                     <h4 class="card-title"><a href="#">The Counsellor Vol 3 (August 1980) - The Inev ..</a></h4>
                     <p class="card-text">At The awareness of the need for Guidance and Counselling, as a ..</p>
-                    <a href="" class="btn btn-outline-secondary">Download</a>
+                    <a href="#" class="btn btn-outline-secondary">Download</a>
                 </div>
             </div>
         </div>
@@ -194,7 +194,7 @@
                 <div class="card-body">
                     <h4 class="card-title"><a href="#">The Counsellor Vol 11 No 1 (August 1992) ..</a></h4>
                     <p class="card-text">At Generally, the record of political leadership in modern Afri ..</p>
-                    <a href="" class="btn btn-outline-secondary">Download</a>
+                    <a href="#" class="btn btn-outline-secondary">Download</a>
                 </div>
             </div>
         </div>
