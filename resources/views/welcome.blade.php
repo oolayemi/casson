@@ -73,7 +73,7 @@
 
 <!--- Jumbotron -->
 
-<div class="container mt-5">
+<div class="container mt-3">
     <div class="row jumbotron">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
             <h3>Are you a professional counsellor?</h3>
@@ -139,12 +139,13 @@
 </div>
 
 <!--- publication -->
-<div class="container padding pt-4">
+<div class="container padding">
     <div class="row padding">
-        <div class="col-lg-6" style="alignment: revert">
+        <div class="col-lg-6">
             <h5>PUBLICATIONS</h5>
 
-            <hr class="col-1">
+            {{--<hr class="col-1">--}}
+            <div class="d-inline-block" style="width: 50px; height: 1px; background: green"></div>
 
             <p>Get on with our articles</p>
         </div>
@@ -163,20 +164,161 @@
 
 <!--- Cards -->
 
-<div class="container padding">
+<div class="container padding2">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{{ asset('img/photo.png') }}" alt="">
+                <div class="card-body">
+                    <h4 class="card-title"><a href="#">The Counsellor Vol 14 (August 1996) - Some Te ..</a></h4>
+                    <p class="card-text">At The importance of good family life cannot be over-emphasized ..</p>
+                    <a href="" class="btn btn-outline-secondary">Download</a>
+                </div>
+            </div>
+        </div>
 
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{{ asset('img/photo.png') }}" alt="">
+                <div class="card-body">
+                    <h4 class="card-title"><a href="#">The Counsellor Vol 3 (August 1980) - The Inev ..</a></h4>
+                    <p class="card-text">At The awareness of the need for Guidance and Counselling, as a ..</p>
+                    <a href="" class="btn btn-outline-secondary">Download</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{{ asset('img/photo.png') }}" alt="">
+                <div class="card-body">
+                    <h4 class="card-title"><a href="#">The Counsellor Vol 11 No 1 (August 1992) ..</a></h4>
+                    <p class="card-text">At Generally, the record of political leadership in modern Afri ..</p>
+                    <a href="" class="btn btn-outline-secondary">Download</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </div>
 
 
-<!--- Two Column Section -->
+<!--- Three Column Section -->
+
+
+<section class="mb-lg-5" style="background: #f7f7f7">
+    <div class="container">
+        <div class="row justify-content-center mb-lg-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <h5>FOLLOW OUR LATEST NEWS</h5>
+                        <div class="d-inline-block" style="width: 50px; height: 1px; background: green"></div>
+                        <p class="lead mb-0">We bring to you updates of our news and events.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <article>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4 mb-lg-3">
+                        <img class="img-fluid" src="{{ asset('img/photo2.png') }}" alt="">
+                        <div class="card pl-4">
+                            <p class="card-text mt-2">NOV. 16, 2018</p>
+                            <div class="card-title">
+                                <h5> CASSON BILL</h5>
+                            </div>
+                            <p>CASSON Bill receives successful stakeholders public hearing</p>
+                            <a class="mb-4" href="#">read more...</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-lg-3">
+                        <img class="img-fluid" src="{{ asset('img/photo2.png') }}" alt="">
+                        <div class="card pl-4">
+                            <p class="card-text mt-2">MAY 13, 2018</p>
+                            <div class="card-title">
+                                <h5> Prof. Egbochuku Appeals Strong Support for CASSON Secretariat Building</h5>
+                            </div>
+                            <p>The President updated NDC on the progress so far on the N...</p>
+                            <a class="mb-4" href="#">read more...</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-lg-3">
+                        <img class="img-fluid" src="{{ asset('img/photo2.png') }}" alt="">
+                        <div class="card pl-4">
+                            <p class="card-text mt-2">MAY 13, 2018</p>
+                            <div class="card-title">
+                                <h5> National University Commission (NUC) Backs Counselling Practitioners Council Bill</h5>
+                            </div>
+                            <p>National University Commission (NUC) Backs Counselling Pr...</p>
+                            <a class="mb-4" href="#">read more...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+    <hr class="my-4">
+</section>
+
 
 
 <!--- Connect -->
 
+<div class="container padding">
+    <div class="col-12 social padding">
+        <div class="row justify-content-center text-center padding">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</div>
+
 
 <!--- Footer -->
 
+<footer>
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <hr class="light">
+                <img src="{{ asset('img/logo.png') }}" alt="" style="height: 26px">
+                <hr class="light">
+                <p>090-123-456-7890</p>
+                <p>email@myemail.com</p>
+                <p>100 Street Name</p>
+                <p>City, State, Country</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>About Us</h5>
+                <hr class="light">
+                <p> The Counselling Association of Nigeria is a National Professional body of trained, registered and Licensed Counsellors. It draws membership from all Educational Institutions, Prisons, the Health Secto, Schools, NGOs, Rehabilitating Centres, the media, Government Agencies, Individuals, Religious groups etc. </p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Newslater</h5>
+                <hr class="light">
+                <p> Do not miss out our latest news and events. </p>
 
+                    <form action="">
+                        <input class="form-control-sm mb-2" type="email" name="email" placeholder="Enter your email" aria-label="Enter email">
+                        <button class="form-control-sm btn btn-success" type="submit">Subscribe</button>
+                    </form>
+
+            </div>
+            <div class="col-12">
+                <hr class="light-100">
+                <h5>2020 &copy; Counselling Association Of Nigeria. All Rights Reserved.</h5>
+            </div>
+        </div>
+    </div>
+
+</footer>
 
 
 </body>
