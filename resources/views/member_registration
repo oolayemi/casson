@@ -1,0 +1,9 @@
+<x-master>
+    @section('content')
+
+        <section>
+
+        </section>
+
+    @endsection
+</x-master>
