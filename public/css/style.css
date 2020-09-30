@@ -7,6 +7,8 @@ html, body{
     color: #222;
 }
 .navbar{
+    position: fixed;
+    width: 100%;
     padding: .8rem;
 }
 
@@ -18,7 +20,12 @@ html, body{
     font-size: 1.1em !important;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #2b845b;
+}
+
 .carousel-inner img{
+    margin-top: 5rem;
     width: 100%;
     height: 100%;
 }
@@ -41,13 +48,19 @@ html, body{
 }
 
 .btn-primary{
-    background-color: #6648b1;
-    border: 1px solid #6648b1;
+    background-color: #4fb137;
+    border: 1px solid #4fb137;
 }
+
 .btn-primary:hover{
-    background-color: #563d7c;
-    border: 1px solid #563d7c;
+    background-color: #557c38;
+    border: 1px solid #557c38;
 }
+
+.btn {
+    border-radius: 13px;
+}
+
 .jumbotron{
     padding: 1rem;
     border-radius: 0;
@@ -55,6 +68,11 @@ html, body{
 
 .padding{
     padding-bottom: 2rem;
+}
+
+a:hover{
+    color: #1d643b;
+    text-decoration: none;
 }
 
 
