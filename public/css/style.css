@@ -7,8 +7,8 @@ html, body{
     color: #222;
 }
 .navbar{
-    position: fixed;
-    width: 100%;
+    /*position: fixed;
+    width: 100%;*/
     padding: .8rem;
 }
 
@@ -21,11 +21,10 @@ html, body{
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #2b845b;
+    color: #72c02c;
 }
 
 .carousel-inner img{
-    margin-top: 5rem;
     width: 100%;
     height: 100%;
 }
@@ -57,8 +56,20 @@ html, body{
     border: 1px solid #557c38;
 }
 
+.text-link a{
+    color: #72c02c;
+}
+.text-link a:hover{
+    color: #1b1e21;
+}
+
 .btn {
     border-radius: 13px;
+}
+.btn2 {
+    height: 3rem;
+    border-radius: 4px;
+    width: 3.7rem;
 }
 
 .jumbotron{
@@ -128,6 +139,55 @@ hr.light-100{
     margin-top: .8rem;
     margin-bottom: 1rem;
 }
+
+.verticalLine{
+    border-left: thin solid #121318;
+    margin-top: 1rem;
+    height: 33rem;
+}
+
+.g-bg-white {
+    background-color: #fff !important;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /*border: 3px solid green;*/
+}
+
+.center-no-height{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-group-item.active{
+    background-color: #d5d5d5;
+    color: #1d643b;
+}
+
+.list-group-item:hover{
+    background-color: #d5d5d5;
+    color: #1d643b;
+}
+
+.input-group{
+    height: 3rem;
+    width: 70%;
+}
+
+
+.card-header {
+    padding: 0.35rem 1.25rem;
+}
+
+
+
+
+
 
 
 

@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 p-2">
-                        <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Register Now!!!</button></a>
+                        <a href="{{ route('member.registration') }}"><button type="button" class="btn btn-outline-secondary btn-lg">Register Now!!!</button></a>
                     </div>
 
                 </div>
