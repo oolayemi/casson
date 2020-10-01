@@ -71,10 +71,9 @@
                 <hr class="light">
                 <p> Do not miss out our latest news and events. </p>
 
-                <form action="">
+
                     <input class="form-control-sm mb-2" type="email" name="email" placeholder="Enter your email" aria-label="Enter email">
                     <button class="form-control-sm btn btn-success" type="submit">Subscribe</button>
-                </form>
 
             </div>
             <div class="col-12">
