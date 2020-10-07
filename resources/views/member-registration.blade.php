@@ -39,7 +39,6 @@
 
 {{--                <div class="verticalLine"></div>--}}
 
-
                 <div class="col-lg-3">
                     <div class="card">
                         <div class="card-header">
