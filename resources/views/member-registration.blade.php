@@ -50,7 +50,7 @@
                                     <i class="fa fa-arrow"></i>
                                     Apply Now
                                 </a>
-                                <a class="list-group-item" href="">
+                                 <a class="list-group-item" href="">
                                     <i class="fa fa-arrow"></i>
                                     NEws and Event
                                 </a>
