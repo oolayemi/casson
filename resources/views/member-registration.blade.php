@@ -50,9 +50,9 @@
                                     <i class="fa fa-arrow"></i>
                                     Apply Now
                                 </a>
-                                 <a class="list-group-item" href="">
+                                 <a class="list-group-item" href="{{ route('news.event') }}">
                                     <i class="fa fa-arrow"></i>
-                                    NEws and Event
+                                    News and Event
                                 </a>
                                 <a class="list-group-item" href="">
                                     <i class="fa fa-arrow"></i>

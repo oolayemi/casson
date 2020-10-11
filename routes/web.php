@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::get('/member/registration', function (){
     return view('member-registration');
 })->name('member.registration');
+
+
+Route::get('/news-and-event', function (){
+    return view('news-and-event');
+})->name('news.event');
