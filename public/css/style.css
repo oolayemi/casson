@@ -20,6 +20,11 @@ html, body{
     font-size: 1.1em !important;
 }
 
+
+.nav-link:hover{
+    border-top: 3px solid #78c053;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #72c02c;
 }
