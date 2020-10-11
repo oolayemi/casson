@@ -23,29 +23,32 @@
                     <article>
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-6 col-lg-4 mb-lg-3">
-                                    <img class="img-fluid" src="{{ asset('img/photo2.png') }}" alt="">
-                                    <div class="card pl-4">
-                                        <p class="card-text mt-2">NOV. 16, 2018</p>
-                                        <div class="card-title">
-                                            <h5> CASSON BILL</h5>
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-6 mb-lg-3">
+                                        <img class="img-fluid" src="{{ asset('img/photo2.png') }}" alt="">
+                                        <div class="card pl-4">
+                                            <p class="card-text mt-2">NOV. 16, 2018</p>
+                                            <div class="card-title">
+                                                <h5> CASSON BILL</h5>
+                                            </div>
+                                            <p>CASSON Bill receives successful stakeholders public hearing</p>
+                                            <a class="mb-4" href="#">read more...</a>
                                         </div>
-                                        <p>CASSON Bill receives successful stakeholders public hearing</p>
-                                        <a class="mb-4" href="#">read more...</a>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-6 mb-lg-3">
+                                        <img class="img-fluid" src="{{ asset('img/photo2.png') }}" alt="">
+                                        <div class="card pl-4">
+                                            <p class="card-text mt-2">MAY 13, 2018</p>
+                                            <div class="card-title">
+                                                <h5> Prof. Egbochuku Appeals Strong Support for CASSON Secretariat Building</h5>
+                                            </div>
+                                            <p>The President updated NDC on the progress so far on the N...</p>
+                                            <a class="mb-4" href="#">read more...</a>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6 col-lg-4 mb-lg-3">
-                                    <img class="img-fluid" src="{{ asset('img/photo2.png') }}" alt="">
-                                    <div class="card pl-4">
-                                        <p class="card-text mt-2">MAY 13, 2018</p>
-                                        <div class="card-title">
-                                            <h5> Prof. Egbochuku Appeals Strong Support for CASSON Secretariat Building</h5>
-                                        </div>
-                                        <p>The President updated NDC on the progress so far on the N...</p>
-                                        <a class="mb-4" href="#">read more...</a>
-                                    </div>
-                                </div>
-                                {{--<div class="col-sm-6 col-lg-4 mb-lg-3">
+
+                                <div class="col-sm-6 col-lg-6 mb-lg-3">
                                     <img class="img-fluid" src="{{ asset('img/photo2.png') }}" alt="">
                                     <div class="card pl-4">
                                         <p class="card-text mt-2">MAY 13, 2018</p>
@@ -55,7 +58,7 @@
                                         <p>National University Commission (NUC) Backs Counselling Pr...</p>
                                         <a class="mb-4" href="#">read more...</a>
                                     </div>
-                                </div>--}}
+                                </div>
                             </div>
                         </div>
                     </article>
@@ -63,7 +66,7 @@
 
                 {{--                <div class="verticalLine"></div>--}}
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 mt-3">
                     <div class="card">
                         <div class="card-header">
                             <div class="text-center"><h4>Quick links</h4></div>
