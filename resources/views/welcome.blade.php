@@ -47,7 +47,6 @@
                 </div>
             </div>
 
-
             <!--- Welcome Section -->
 
         {{--<div class="container padding">
